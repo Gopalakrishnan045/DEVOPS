@@ -1,0 +1,26 @@
+# Local .terraform directories
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Backup files
+*.backup
+
+# Terraform lock file (can be shared in teams, but often ignored locally)
+.terraform.lock.hcl
+
+# Sensitive variable files (if used)
+*.tfvars
+*.tfvars.json
+
+# IDE/editor config (optional)
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
